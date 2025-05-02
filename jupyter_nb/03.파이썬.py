@@ -10,4 +10,3 @@ soup = BeautifulSoup(html, "html.parser")
 
 print(soup.select_one("head > title").text)
 
-
